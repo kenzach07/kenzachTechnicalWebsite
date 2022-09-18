@@ -1,0 +1,361 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #000000 !important;
+    color: #999 !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+p{
+    font-size: 1em;
+}
+
+/* HEADER */
+.header {
+    overflow: hidden;
+    background-color: #0a0a0a;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+  
+  .header a:hover {
+    background-color:  dodgerblue;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .header a.active {
+    background-color:  dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+
+  .kirby{
+    width: 60px;
+    height: auto;
+    margin-bottom: 5px;
+    padding-left: 20px;
+  }
+
+/* HOMEEEE */
+#home {
+    background-image: url('../img/ken.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    text-align: center !important;
+} 
+#home2 {
+    background-image: url('../img/ken2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    text-align: center !important;
+} 
+
+#summary {
+    color: white;
+    font-weight: normal !important;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.typed-cursor{
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#ghost1{
+    margin-bottom: 100px;
+}
+
+    #home h1 {
+        border: 2px solid #D43F52;
+        color: #D43F52;
+        display: inline-block;
+        letter-spacing: 6px;
+        padding: 25px 35px;
+        margin: 30px 0;
+        font-size: 40px;
+    }
+
+    #home h2 {
+        padding-bottom: 10px;
+        color: white;
+        font-size: 40px;
+    }
+
+    #home h3 {
+        font-weight: bold;
+        color: white;
+        font-size: 3.5em;
+    }
+
+    #home2 h2 {
+        padding-bottom: 10px;
+        color: white;
+        font-size: 40px;
+    }
+
+    #home2 h3 {
+        font-weight: bold;
+        color: white;
+        font-size: 3.5em;
+    }
+
+/* WORKKKKK SECTION */
+#work {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background: #1a1a1a;
+}
+
+    #work h2 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #work .media {
+        margin-top: 30px;
+    }
+
+    /* WORKKKKK ICONSSSS */
+
+    #summary{
+        font-size: 1.4em;
+    }
+    .description{
+        font-size: 1.2em;
+    }
+
+    .description2{
+        font-size: 1.2em;
+        color: white;
+    }
+    #work .media .fa {
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        color: #D43F52;
+        font-size: 24px;
+        margin-right: 24px;
+        width: 60px;
+        height: 60px;
+        line-height: 55px;
+        text-align: center;
+        vertical-align: middle;
+        transition: all 0.4s ease-in;
+    }
+
+      
+        #work .media .media-heading {
+            font-weight: 600;
+            font-size: 30px;
+            padding-bottom: 10px;
+        }
+
+/* EDUCATION PART*/
+
+#educ{
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+#educPart{
+    margin-bottom: 80px;
+}
+
+#ama{
+    height: 310px;
+}
+
+/* CONTACT SECTION */
+#contact {
+    padding-top: 100px;
+    background: #1a1a1a;
+    padding-bottom: 50px;
+}
+
+    #contact address {
+        padding-bottom: 100px;
+        text-align: left !important;
+        
+    }
+
+#contact .contact-title {
+    font-size: 30px !important;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+
+#contactDetails{
+    font-size: 1.3em;
+    color: #ffffff;
+}
+
+#emailDetail{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contact .fa {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    color: #D43F52;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#contact .form-control {
+    background: transparent;
+    border: 2px solid #999;
+    border-radius: 0;
+    box-shadow: none;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#contact input {
+    height: 50px;
+}
+
+    #contact input[type="submit"] {
+        background: #D43F52;
+        border: 2px solid transparent;
+        color: #ffffff;
+        font-weight: bold;
+        transition: all 0.4s ease-in-out;
+    }
+
+        #contact input[type="submit"]:hover {
+            background: #ffffff;
+            color: #D43F52;
+        }
+
+    #contact address {
+        padding-bottom: 18px;
+    }
+
+    #contact .contact-title {
+        font-size: 24px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        color: #ffffff;
+    }
+
+    #contact .fa {
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        color: #D43F52;
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    #contact .form-control {
+        background: transparent;
+        border: 2px solid #999;
+        border-radius: 0;
+        box-shadow: none;
+        color: #ffffff;
+        margin-bottom: 30px;
+    }
+
+    #contact input {
+        height: 50px;
+    }
+
+        #contact input[type="submit"] {
+            background: #D43F52;
+            border: 2px solid transparent;
+            color: #ffffff;
+            font-weight: bold;
+            transition: all 0.4s ease-in-out;
+        }
+
+            #contact input[type="submit"]:hover {
+                background: #ffffff;
+                color: #D43F52;
+            }
+
+/* FOOTER SECTION */
+footer {
+    border-top: 1px solid #090909;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #000000;
+}
+
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+    .social-icon li {
+        display: inline-block;
+        list-style: none;
+        line-height: 40px;
+        font-size: 35px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+        .social-icon li a {
+            border-radius: 50%;
+            color: #606060;
+            text-decoration: none;
+            transition: all 0.4s ease-in-out;
+            text-align: center;
+            margin-right: 10px;
+        }
+
+        #credits{
+            padding-top: 30px;
+        }
+   
+
+     
