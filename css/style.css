@@ -93,10 +93,6 @@ p{
     margin-bottom:20px;
 }
 
-.typed-cursor{
-    color: white;
-}
-
 .wrapper{
     display: flex;
     justify-content: center;
@@ -180,10 +176,8 @@ p{
         line-height: 55px;
         text-align: center;
         vertical-align: middle;
-        transition: all 0.4s ease-in;
     }
 
-      
         #work .media .media-heading {
             font-weight: 600;
             font-size: 30px;
@@ -255,16 +249,14 @@ p{
     margin-bottom: 20px;
 }
 
-#contact input {
-    height: 50px;
-}
+
 
     #contact input[type="submit"] {
         background: #D43F52;
         border: 2px solid transparent;
         color: #ffffff;
         font-weight: bold;
-        transition: all 0.4s ease-in-out;
+       
     }
 
         #contact input[type="submit"]:hover {
@@ -276,49 +268,13 @@ p{
         padding-bottom: 18px;
     }
 
-    #contact .contact-title {
-        font-size: 24px;
-        font-weight: bold;
-        padding-bottom: 20px;
-        color: #ffffff;
-    }
 
-    #contact .fa {
-        border: 2px solid #ffffff;
-        border-radius: 50%;
-        color: #D43F52;
-        width: 50px;
-        height: 50px;
-        line-height: 45px;
-        text-align: center;
-        margin-right: 20px;
-    }
-
-    #contact .form-control {
-        background: transparent;
-        border: 2px solid #999;
-        border-radius: 0;
-        box-shadow: none;
-        color: #ffffff;
-        margin-bottom: 30px;
-    }
-
+  
     #contact input {
         height: 50px;
     }
 
-        #contact input[type="submit"] {
-            background: #D43F52;
-            border: 2px solid transparent;
-            color: #ffffff;
-            font-weight: bold;
-            transition: all 0.4s ease-in-out;
-        }
-
-            #contact input[type="submit"]:hover {
-                background: #ffffff;
-                color: #D43F52;
-            }
+       
 
 /* FOOTER SECTION */
 footer {
@@ -353,9 +309,6 @@ footer {
             margin-right: 10px;
         }
 
-        #credits{
-            padding-top: 30px;
-        }
    
 
      

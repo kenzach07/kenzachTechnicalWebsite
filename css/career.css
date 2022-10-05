@@ -1,7 +1,6 @@
-body{
-    color: white;
-    background: url(../img/career.jpg);
-    
+body {
+  color: white;
+  background: url(../img/career.jpg);
 }
 
 html {
@@ -9,76 +8,79 @@ html {
 }
 
 body {
-
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 
-
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: #ffffff !important;
   font-weight: bold !important;
 }
 
-p{
+p {
   font-size: 1em;
 }
 
-#career-form{
-  background-color:#1a1a1a;
+#career-form {
+  background-color: #1a1a1a;
 }
 
 .header {
-    overflow: hidden;
-    background-color: #0a0a0a;
-    padding: 20px 10px;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-  }
-  
-  .header a {
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px; 
-    line-height: 25px;
-    border-radius: 4px;
-    
-  }
-  
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
-  .header a:hover {
-    background-color:  dodgerblue;
-    color: black;
-    text-decoration: none;
-  }
-  
-  .header a.active {
-    background-color: dodgerblue;
-    color: white;
-  }
-  
-  .header-right {
-    float: right;
-  }
+  overflow: hidden;
+  background-color: #0a0a0a;
+  padding: 20px 10px;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
 
-  
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
 
-  .kirby{
-    width: 60px;
-    height: auto;
-    margin-bottom: 5px;
-    padding-left: 20px;
-  }
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
 
-  #label{
-    font-weight: 500;
-  }
+.header a:hover {
+  background-color: dodgerblue;
+  color: black;
+  text-decoration: none;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.kirby {
+  width: 60px;
+  height: auto;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+
+#label {
+  font-weight: 500;
+}
+
+#list {
+  display: none;
+}
